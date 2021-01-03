@@ -1,0 +1,19 @@
+.contact--wrapper {
+  background-color: #020a16;
+  padding: 0 0 3vh 0;
+}
+
+.contacts--wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts {
+  margin-right: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 30px;
+  color: #aaafbe;
+  text-decoration: none;
+}
