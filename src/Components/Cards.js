@@ -12,38 +12,50 @@ export default class Cards extends Component {
           <div className="cards__wrapper">
             <ul className="cards__items">
               <CardItem
-                src="images/img-1.jpg"
-                text="Sample Text here is a card with a project and some text blah blah"
-                label="Sample"
-                path="/Project1"
+                src="videos/rog.mp4"
+                text="Play a Yahtzee game with a friend in the terminal."
+                title="Yahtzee Game"
+                path="https://github.com/nickluong-dev"
+                label={["Python", "Java"]}
               />
 
               <CardItem
                 src="images/img-2.jpg"
                 text="Here is another card with a project and some text. I like cyberpunk aesthics."
-                label="Sample"
+                title="Sample"
                 path="/services"
+                label={["Python", "Java"]}
               />
 
               <CardItem
                 src="images/img-8.jpg"
                 text="I like to code and game and sleep and eat. My favourite colour is black. Neon colours."
-                label="Sample"
+                title="Sample"
                 path="/services"
               />
             </ul>
             <ul className="cards__items">
               <CardItem
                 src="images/img-home.jpg"
-                text="A bigger card for a project with a nice picture. But there's nothing here yet."
-                label="Sample"
+                text="A bigger card for a project with a nice picture. But there's nothing here yet. asdfasdf asd fasd fasd fasd fasd fasd fasd f asdf asdf asdf asd fasdf "
+                title="Sample"
                 path="/services"
+                label={[
+                  "Python",
+                  "Java",
+                  "CSS",
+                  "HTML",
+                  "React",
+                  "Angular",
+                  "random",
+                  "words",
+                ]}
               />
 
               <CardItem
                 src="images/img-2.jpg"
                 text="A bigger card for a project with a nice picture. But there's nothing here yet."
-                label="Sample"
+                title="Sample"
                 path="/services"
               />
             </ul>

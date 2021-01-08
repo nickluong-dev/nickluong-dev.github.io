@@ -16,7 +16,7 @@
 
 .cards {
   padding: 4rem;
-  background: #020a16;
+  background: #010a17;
 }
 
 .neon--subhead {
@@ -62,6 +62,7 @@
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
+  transition: all 0.5s ease-in-out;
 }
 
 .cards__item__pic-wrap {
@@ -77,7 +78,7 @@
 }
 
 .cards__item__pic-wrap::after {
-  content: attr(data-category);
+  content: attr(data-title);
   position: absolute;
   bottom: 0;
   margin-left: 10px;
@@ -115,26 +116,57 @@
     0 0 15px #0e2d5e, 0 0 30px #08244e;
 }
 
-.cards__item:hover .cards__item__info {
+.cards__item:hover .cards__item__info,
+.cards__item:hover .cards__item__link {
   background-color: #c6e4e4;
+}
+
+.cards__item__info {
+  padding: 0.7rem 1.3rem 0.7rem;
+  background-color: #020a16;
+  transition: all 0.5s ease-in-out;
+  color: #aaafbe;
+  font-size: 0.85rem;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.cards__item__text {
+  transition: all 0.5s ease-in-out;
+}
+
+.cards__item__label__wrap {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+  transform: translateY(20rem);
+  transition: all 0.7s ease-in-out;
+  flex-wrap: wrap;
+}
+
+.cards__item__label {
+  color: transparent;
+  border-radius: 15px;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+  height: 0px;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  margin-right: 0.3rem;
+}
+
+.cards__item:hover .cards__item__label__wrap {
+  transform: translateY(0rem);
+}
+
+.cards__item:hover .cards__item__label {
+  color: #aaafbe;
+  background-color: #020a16;
+  margin-bottom: 0.3rem;
+  height: 1.7rem;
 }
 
 .cards__item:hover .cards__item__text {
   color: #020a16;
-}
-
-.cards__item__info {
-  padding: 20px 30px 30px;
-  background-color: #020a16;
-  transition: all 0.1s ease-in-out;
-}
-
-.cards__item__text {
-  color: #aaafbe;
-  font-size: 14px;
-  line-height: 24px;
-  font-family: "Roboto", sans-serif;
-  transition: all 0.1s ease-in-out;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -147,10 +179,25 @@
   .cards__items {
     display: flex;
   }
+
+  .cards__item__label {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
   }
+  cards__item__label__wrap {
+    display: flex;
+    justify-content: space-around;
+  }
 }
+
+@media only screen and (max-width: 600px) {
+  .cards__item__label__wrap {
+    justify-content: center;
+  }
+} ;

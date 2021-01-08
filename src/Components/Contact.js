@@ -23,7 +23,7 @@ function Contact() {
         </h1>
 
         <h1 className="contacts">
-          <a href="https://github.com/nickluong97" className="contacts">
+          <a href="https://github.com/nickluong-dev" className="contacts">
             <i className="fab fa-github"></i> Github
           </a>
         </h1>

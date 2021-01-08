@@ -9,8 +9,8 @@ function Home() {
   return (
     <>
       <MySection />
-      <Cards />
       <About />
+      <Cards />
       <Contact />
     </>
   );

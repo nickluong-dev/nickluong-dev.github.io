@@ -8,27 +8,23 @@ function About() {
       <span className="neon--subhead2">About Me</span>
       <div className="text--wrapper">
         <span className="text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Hi, my name is Nick Luong and I am a current Computer Systems
+          Technology student at BCIT. I'm always excited to learn new
+          technologies and use them to build things. I'm open to all facets in
+          the tech industry but right now, I'm particularly into web development
+          and analytics. But you'll still find me studying backend development.
         </span>
 
         <span className="text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Right now, I'm in the process of learning React, Flask, and improving
+          my Javascript. I'm also constantly watching videos on algorithms and
+          data structures when I have time. My other interests include
+          music/guitar, gaming, working out, keyboards, and technology.
+        </span>
+
+        <span className="text">
+          Nice to meet you! I love to meet new people, so contact me below if
+          you want to connect.
         </span>
       </div>
     </div>

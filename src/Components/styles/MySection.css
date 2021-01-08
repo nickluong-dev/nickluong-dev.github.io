@@ -14,23 +14,19 @@
 }
 
 video {
-  object-fit: cover;
+  object-fit: fill;
   width: 100%;
   height: 100%;
-  position: fixed;
+  position: relative;
   z-index: -1;
 }
 
 .section-container {
-  /* background: url("img-1.jpg") center center/cover no-repeat; */
+  /* background: url("images/img-1.jpg") center center/cover no-repeat; */
   height: 100vh;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
-  justify-content: center;
 }
 
 /* Neon */
@@ -38,22 +34,24 @@ video {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #030c1c;
+  background: #010a17;
 }
 
-.main {
-  display: block;
+.frontpage--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-family: "neontubes";
-  /* text-align: center; */
+  text-align: center;
   white-space: nowrap;
 }
 
-.main span {
+.frontpage--container span {
   display: block;
   position: relative;
   -webkit-transform: translateZ(0) translate3D(0, 0, 0);
@@ -75,7 +73,7 @@ body {
 }
 
 .neon--subhead {
-  font-size: 4vw;
+  font-size: 5vh;
   color: #324e68;
   text-shadow: 0 0 0 transparent, 0 0 5px #301d78,
     0 0 10px rgba(38, 149, 255, 0.5), 0 0 20px #301d78, 0 0 50px #301d78;
@@ -83,11 +81,10 @@ body {
   animation: buzz 0.01s infinite alternate;
   font-family: "neontubes";
   text-decoration: none;
-  margin-right: 40px;
   transition: all 0.1s ease-in-out;
 }
 
-.main .neon--subhead:hover {
+.frontpage--container .neon--subhead:hover {
   color: #d4eaff;
   text-shadow: 0 0 0 transparent, 0 0 5px #3d2692,
     0 0 10px rgba(133, 190, 243, 0.5), 0 0 50px #6646d8, 0 0 100px #6244cf,
@@ -97,7 +94,7 @@ body {
 }
 
 .neon--subhead2 {
-  font-size: 3rem;
+  font-size: 5vh;
   color: #d4eaff;
   text-shadow: 0 0 0 transparent, 0 0 5px #3d2692,
     0 0 10px rgba(133, 190, 243, 0.5), 0 0 50px #6646d8, 0 0 100px #6244cf,
@@ -106,13 +103,13 @@ body {
   animation: buzz 0.01s infinite alternate;
   font-family: "neontubes";
   text-decoration: none;
-  margin-right: 40px;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .neon--random {
-  font-size: 1.2rem;
+  font-size: 2.5vh;
   color: #d4eaff;
   text-shadow: 0 0 0 transparent, 0 0 5px #3d2692,
     0 0 5px rgba(133, 190, 243, 0.5), 0 0 6px #6646d8, 0 0 5px #6244cf,
@@ -121,9 +118,6 @@ body {
   animation: buzz 0.01s infinite alternate;
   font-family: "neontubes";
   text-decoration: none;
-  margin-right: 40px;
-  display: flex;
-  justify-content: center;
   width: 100%;
   height: 100%;
 }
@@ -134,15 +128,15 @@ body {
     0 0 100px #7a66c2, 0 0 500px #6046be, 0 0 1000px #634bbb;
   animation: blink 3s infinite alternate;
 }
-.random--wrapper {
+.random--container {
   position: relative;
   margin-bottom: 0;
-  padding-left: 4px;
   height: 50px;
   overflow: hidden;
+  margin-top: 1rem;
 }
 
-.random--wrapper .neon--random {
+.random--container .neon--random {
   animation: shuffle steps(8) 9s infinite;
 }
 
@@ -214,8 +208,8 @@ body {
   }
 }
 
-.random--wrapper .neon--random:before,
-.random--wrapper .neon--random:after {
+.random--container .neon--random:before,
+.random--container .neon--random:after {
   padding: 30px;
   color: #d4eaff;
   text-shadow: 0 0 0 transparent, 0 0 5px #3d2692,
@@ -229,12 +223,12 @@ body {
   overflow: hidden;
   top: 0;
 }
-.random--wrapper .neon--random:before {
+.random--container .neon--random:before {
   left: 2px;
   text-shadow: -2px 0 red;
   animation: glitch-1 2s linear infinite reverse;
 }
-.random--wrapper .neon--random:after {
+.random--container .neon--random:after {
   left: -2px;
   text-shadow: -2px 0 blue;
   animation: glitch-2 2s linear infinite reverse;
@@ -368,5 +362,11 @@ body {
   }
   100% {
     clip: rect(131px, auto, 14px, 33px);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .frontpage--container {
+    /* width: 2vw; */
   }
 }

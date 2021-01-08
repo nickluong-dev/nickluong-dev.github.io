@@ -7,31 +7,31 @@ export default class MySection extends Component {
   render() {
     return (
       <div className="section-container">
-        {/* <video src="/videos/rog.mp4" autoPlay loop muted /> */}
-        <div className="main">
+        <video src="/videos/particles.mp4" autoPlay loop muted />
+        <div className="frontpage--container">
           <span className="neon--head">Hi, I'm Nick</span>
 
-          <div className="random--wrapper">
+          <span className="random--container">
             <span
               className="neon--random"
               data-text="I'm as@u#█t█ #e.e@!__!"
             ></span>
 
-            <span className="neon--random">I'm █ stあdenか develoょer</span>
             <span className="neon--random">I'm a student developer</span>
-            <span className="neon--random">I'm a stんden$ developer</span>
+            <span className="neon--random">I'm a student developer</span>
+            <span className="neon--random">I'm a student developer</span>
             <span
               className="neon--random"
               data-text="I'm a█stuハent█devめloper"
             ></span>
-            <span className="neon--random">I'm _ st█dent deve█oper</span>
-            <span className="neon--random">I'm a studeょt deえeloper</span>
+            <span className="neon--random">I'm a student developer</span>
+            <span className="neon--random">I'm a student developer</span>
             <span
               className="neon--random"
               data-text="I'm a student developer"
             ></span>
             <span className="neon--random">I'm a student developer</span>
-          </div>
+          </span>
 
           <Link
             to="projects"

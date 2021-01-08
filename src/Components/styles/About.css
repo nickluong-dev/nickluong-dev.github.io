@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@300&display=swap");
 
 .about--wrapper {
-  background-color: #020a16;
-  padding: 0 0 9vh 0;
+  background-color: #010a17;
+  padding: 9vh 0 9vh 0;
 }
 
 .text--wrapper {
@@ -13,12 +13,12 @@
 }
 
 .text {
-  width: 80vw;
+  width: 70vw;
   margin: 15px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   color: #aaafbe;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
 }
