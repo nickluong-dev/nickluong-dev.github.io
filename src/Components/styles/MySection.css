@@ -91,6 +91,7 @@ body {
     0 0 100px #7a66c2, 0 0 500px #6046be, 0 0 1000px #634bbb;
   -webkit-animation: blink 3s infinite alternate;
   animation: blink 3s infinite alternate;
+  cursor: pointer;
 }
 
 .neon--subhead2 {
@@ -99,8 +100,8 @@ body {
   text-shadow: 0 0 0 transparent, 0 0 5px #3d2692,
     0 0 10px rgba(133, 190, 243, 0.5), 0 0 50px #6646d8, 0 0 100px #6244cf,
     0 0 100px #7a66c2, 0 0 500px #6046be, 0 0 1000px #634bbb;
-  -webkit-animation: buzz 0.01s infinite alternate;
-  animation: buzz 0.01s infinite alternate;
+  -webkit-animation: buzz 2s infinite alternate;
+  animation: buzz 2s infinite alternate;
   font-family: "neontubes";
   text-decoration: none;
   display: flex;
@@ -362,11 +363,5 @@ body {
   }
   100% {
     clip: rect(131px, auto, 14px, 33px);
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .frontpage--container {
-    /* width: 2vw; */
   }
 }

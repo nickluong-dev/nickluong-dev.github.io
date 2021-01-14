@@ -6,13 +6,7 @@ function CardItem(props) {
       <li className="cards__item">
         <a className="cards__item__link" href={props.path}>
           <figure className="cards__item__pic-wrap" data-title={props.title}>
-            <video
-              src={props.src}
-              className="cards__item__img"
-              autoPlay
-              loop
-              muted
-            />
+            <img src={props.src} className="cards__item__img" alt={props.alt} />
           </figure>
           <div className="cards__item__info">
             <span className="cards__item__text">{props.text}</span>
