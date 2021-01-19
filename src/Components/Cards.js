@@ -11,7 +11,7 @@ export default function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="videos/LyriCount_demo.gif"
+              src="videos/LyriCount_demo.mp4"
               text="Search for a lyric and see which musicians used it and how many times they've used it in their discography."
               title="LyriCount"
               path="https://github.com/nickluong-dev/LyriCount"
@@ -26,7 +26,7 @@ export default function Cards() {
             />
 
             <CardItem
-              src="videos/yahtzee_demo.gif"
+              src="videos/yahtzee_demo.mp4"
               text="Play a full game of Yahtzee with another player in the console!."
               title="Yahtzee"
               path="https://github.com/nickluong-dev/Yahtzee"
@@ -35,7 +35,7 @@ export default function Cards() {
             />
 
             <CardItem
-              src="videos/cyberclock_demo.gif"
+              src="videos/cyberclock_demo.mp4"
               text="A simple clock inspired from 30 Day Javascript Challenge. Stylized to look cyberpunk and glow ~"
               title="CyberClock"
               path="https://github.com/nickluong-dev/Cyber-Clock"
@@ -45,7 +45,7 @@ export default function Cards() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="videos/portfolio_demo.gif"
+              src="videos/portfolio_demo.mp4"
               text="This site! My first time using React components."
               title="Portfolio"
               path="https://nickluong-dev.github.io/"
