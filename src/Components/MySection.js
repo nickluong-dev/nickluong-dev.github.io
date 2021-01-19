@@ -35,7 +35,7 @@ export default function MySection() {
         <Link
           to="projects"
           spy={true}
-          smooth={true}
+          smooth="easeOutCubic"
           activeClass="active"
           className="neon--subhead"
         >
@@ -44,7 +44,7 @@ export default function MySection() {
         <Link
           to="about"
           spy={true}
-          smooth={true}
+          smooth="easeOutCubic"
           activeClass="active"
           className="neon--subhead"
         >
@@ -53,7 +53,7 @@ export default function MySection() {
         <Link
           to="contact"
           spy={true}
-          smooth={true}
+          smooth="easeOutCubic"
           activeClass="active"
           className="neon--subhead"
         >

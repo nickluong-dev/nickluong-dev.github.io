@@ -43,6 +43,7 @@ export default function Cards() {
               alt="CyberClock Demo"
             />
           </ul>
+
           <ul className="cards__items">
             <CardItem
               src="videos/portfolio_demo.mp4"
@@ -53,11 +54,11 @@ export default function Cards() {
             />
 
             <CardItem
-              src="images/img-home.jpg"
-              text="A placeholder. Coming soon!"
-              title="Sample"
-              path="https://github.com/nickluong-dev"
-              label={["Blood", "Sweat", "Tears", "My Youth", "My Social Life"]}
+              src="videos/SteamStats.mp4"
+              text="Use your SteamID to figure out which games in your library you should finish! Compare your logged hours to what the average completetion time is."
+              title="SteamStats"
+              path="https://github.com/nickluong-dev/SteamStats"
+              label={["Python", "Flask", "Steam API", "CSS"]}
             />
           </ul>
         </div>
