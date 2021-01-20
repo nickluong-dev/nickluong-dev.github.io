@@ -4,9 +4,9 @@ import "./styles/MySection.css";
 
 function Contact() {
   return (
-    <div className="contact--wrapper" id="contact">
-      <span className="neon--subhead2">Contact</span>
-      <div className="contacts--wrapper">
+    <div className="contactWrapper" id="contact">
+      <span className="neonSubhead2">Contact</span>
+      <div className="contactsContainer">
         <h1 className="contacts">
           <a
             href="https://www.linkedin.com/in/nick-luong/"

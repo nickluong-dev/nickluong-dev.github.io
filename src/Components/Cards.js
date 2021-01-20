@@ -6,10 +6,10 @@ import "./styles/MySection.css";
 export default function Cards() {
   return (
     <div id="projects" className="cards">
-      <span className="neon--subhead2">My Projects</span>
-      <div className="cards__container">
-        <div className="cards__wrapper">
-          <ul className="cards__items">
+      <span className="neonSubhead2">My Projects</span>
+      <div className="cardsContainer">
+        <div className="cardsWrapper">
+          <ul className="cardsRow">
             <CardItem
               src="videos/LyriCount_demo.mp4"
               text="Search for a lyric and see which musicians used it and how many times they've used it in their discography."
@@ -44,7 +44,7 @@ export default function Cards() {
             />
           </ul>
 
-          <ul className="cards__items">
+          <ul className="cardsRow">
             <CardItem
               src="videos/portfolio_demo.mp4"
               text="This site! My first time using React components."

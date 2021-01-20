@@ -5,31 +5,31 @@ import { Link } from "react-scroll";
 
 export default function MySection() {
   return (
-    <div className="section-container">
+    <div className="sectionContainer">
       <video src="/videos/particles.mp4" autoPlay loop muted />
-      <div className="frontpage--container">
-        <span className="neon--head">Hi, I'm Nick</span>
+      <div className="frontpageContainer">
+        <span className="neonHead">Hi, I'm Nick</span>
 
-        <span className="random--container">
+        <span className="randomContainer">
           <span
-            className="neon--random"
+            className="neonRandom"
             data-text="I'm as@u#█t█ #e.e@!__!"
           ></span>
 
-          <span className="neon--random">I'm a student developer</span>
-          <span className="neon--random">I'm a student developer</span>
-          <span className="neon--random">I'm a student developer</span>
+          <span className="neonRandom">I'm a student developer</span>
+          <span className="neonRandom">I'm a student developer</span>
+          <span className="neonRandom">I'm a student developer</span>
           <span
-            className="neon--random"
+            className="neonRandom"
             data-text="I'm a█stuハent█devめloper"
           ></span>
-          <span className="neon--random">I'm a student developer</span>
-          <span className="neon--random">I'm a student developer</span>
+          <span className="neonRandom">I'm a student developer</span>
+          <span className="neonRandom">I'm a student developer</span>
           <span
-            className="neon--random"
+            className="neonRandom"
             data-text="I'm a student developer"
           ></span>
-          <span className="neon--random">I'm a student developer</span>
+          <span className="neonRandom">I'm a student developer</span>
         </span>
 
         <Link
@@ -37,7 +37,7 @@ export default function MySection() {
           spy={true}
           smooth="easeOutCubic"
           activeClass="active"
-          className="neon--subhead"
+          className="neonSubhead2"
         >
           Projects
         </Link>
@@ -46,16 +46,16 @@ export default function MySection() {
           spy={true}
           smooth="easeOutCubic"
           activeClass="active"
-          className="neon--subhead"
+          className="neonSubhead2"
         >
           About
         </Link>
         <Link
           to="contact"
           spy={true}
-          smooth="easeOutCubic"
+          smooth="easeInOutQuad"
           activeClass="active"
-          className="neon--subhead"
+          className="neonSubhead2"
         >
           Contact
         </Link>

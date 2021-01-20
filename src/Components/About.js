@@ -4,9 +4,9 @@ import "./styles/MySection.css";
 
 function About() {
   return (
-    <div className="about--wrapper" id="about">
-      <span className="neon--subhead2">About Me</span>
-      <div className="text--wrapper">
+    <div className="aboutWrapper" id="about">
+      <span className="neonSubhead2">About Me</span>
+      <div className="textWrapper">
         <span className="text">
           Hi, my name is Nick Luong and I am a current Computer Systems
           Technology student at BCIT. I'm always excited to learn new

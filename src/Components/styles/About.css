@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@300&display=swap");
 
-.about--wrapper {
+.aboutWrapper {
   background-color: #010a17;
   padding: 9vh 0 9vh 0;
 }
 
-.text--wrapper {
+.textWrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;

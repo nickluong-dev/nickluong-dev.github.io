@@ -3,25 +3,25 @@ import React from "react";
 function CardItem(props) {
   return (
     <>
-      <li className="cards__item">
-        <a className="cards__item__link" href={props.path}>
-          <figure className="cards__item__pic-wrap" data-title={props.title}>
+      <li className="cardsItem">
+        <a className="cardsItemLink" href={props.path}>
+          <figure className="cardsItemPicWrap" data-title={props.title}>
             <video
               src={props.src}
-              className="cards__item__img"
+              className="cardsItemImg"
               autoPlay
               loop
               muted
               type="video/mp4"
             />
           </figure>
-          <div className="cards__item__info">
-            <span className="cards__item__text">{props.text}</span>
-            <span className="cards__item__label__wrap">
+          <div className="cardsItemInfo">
+            <span className="cardsItemText">{props.text}</span>
+            <span className="cardsItemLabelWrap">
               {props.label &&
                 props.label.map((item, index) => {
                   return (
-                    <span key={index} className="cards__item__label">
+                    <span key={index} className="cardsItemLabel">
                       {item}
                     </span>
                   );
