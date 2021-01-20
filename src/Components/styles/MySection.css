@@ -66,7 +66,7 @@ body {
   color: #ffd9e2;
   text-shadow: 0 0 0 transparent, 0 0 10px #d42450,
     0 0 20px rgba(173, 26, 60, 0.5), 0 0 40px #d42450, 0 0 100px #e4315e,
-    0 0 200px #be2148, 0 0 300px #e2345f, 0 0 500px #d42450, 0 0 1000px #e7426b;
+    0 0 100px #be2148, 0 0 300px #e2345f, 0 0 400px #d42450, 0 0 800px #e7426b;
   -webkit-animation: blink 3s infinite alternate;
   animation: blink 3s infinite alternate;
   font-family: "neontubes";
@@ -173,13 +173,13 @@ body {
     opacity: 1;
   }
   45% {
-    opacity: 0.2;
+    opacity: 0.7;
   }
   46% {
     opacity: 1;
   }
   47% {
-    opacity: 0.5;
+    opacity: 0.9;
   }
   48% {
     opacity: 1;
@@ -196,13 +196,13 @@ body {
     opacity: 1;
   }
   45% {
-    opacity: 0.2;
+    opacity: 0.7;
   }
   46% {
     opacity: 1;
   }
   47% {
-    opacity: 0.5;
+    opacity: 0.9;
   }
   48% {
     opacity: 1;
@@ -300,6 +300,7 @@ body {
     clip: rect(14px, auto, 10px, 3px);
   }
 }
+
 @keyframes glitch-2 {
   0% {
     clip: rect(19px, auto, 36px, 30px);

@@ -37,7 +37,7 @@ export default function MySection() {
           spy={true}
           smooth="easeOutCubic"
           activeClass="active"
-          className="neonSubhead2"
+          className="neonSubhead"
         >
           Projects
         </Link>
@@ -46,7 +46,7 @@ export default function MySection() {
           spy={true}
           smooth="easeOutCubic"
           activeClass="active"
-          className="neonSubhead2"
+          className="neonSubhead"
         >
           About
         </Link>
@@ -55,7 +55,7 @@ export default function MySection() {
           spy={true}
           smooth="easeInOutQuad"
           activeClass="active"
-          className="neonSubhead2"
+          className="neonSubhead"
         >
           Contact
         </Link>
