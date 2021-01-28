@@ -27,7 +27,7 @@ export default function Cards() {
 
             <CardItem
               src="videos/yahtzee_demo.mp4"
-              text="Play a full game of Yahtzee with another player in the console!."
+              text="Play a full game of Yahtzee with another player in the console!"
               title="Yahtzee"
               path="https://github.com/nickluong-dev/Yahtzee"
               label={["Python"]}
@@ -36,7 +36,7 @@ export default function Cards() {
 
             <CardItem
               src="videos/cyberclock_demo.mp4"
-              text="A simple clock inspired from 30 Day Javascript Challenge. Stylized to look cyberpunk and glow ~"
+              text="A simple clock inspired from 30 Day Javascript Challenge. Stylized to look cyberpunk and glow."
               title="CyberClock"
               path="https://github.com/nickluong-dev/Cyber-Clock"
               label={["Javascript", "CSS", "HTML"]}

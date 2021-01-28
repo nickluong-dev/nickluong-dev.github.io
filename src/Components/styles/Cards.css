@@ -109,7 +109,7 @@
   transition: all 0.2s linear;
 }
 
-.cardsRow:hover .cardsItemImg {
+.cardsItem:hover .cardsItemImg {
   transform: scale(1.1);
 }
 
