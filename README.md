@@ -1,5 +1,5 @@
 # nickluong-dev.github.io
 
-Website made with React, HTML, and CSS.
+Website made with React, HTML, and CSS. Constantly undergoing updates and changes!
 
-[nickluong-dev.github.io](https://nickluong-dev.github.io/)
+[https://nickluong.com/](https://nickluong.com/)
