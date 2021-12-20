@@ -18,7 +18,7 @@ video {
   width: 100%;
   height: 100%;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 
 .sectionContainer {
@@ -27,6 +27,8 @@ video {
   width: 100%;
   display: flex;
   object-fit: contain;
+  background: #000b16;
+  z-index: -2;
 }
 
 /* Neon */
@@ -34,13 +36,13 @@ video {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #010a17;
+  background: #000b16;
 }
 
 .frontpageContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -49,6 +51,7 @@ body {
   font-family: "neontubes";
   text-align: center;
   white-space: nowrap;
+  width: 50vw;
 }
 
 .frontpageContainer span {
@@ -62,33 +65,43 @@ body {
 }
 
 .neonHead {
-  font-size: 11vw;
+  font-size: 6vw;
   color: #ffd9e2;
   text-shadow: 0 0 0 transparent, 0 0 10px #d42450,
     0 0 20px rgba(173, 26, 60, 0.5), 0 0 40px #d42450, 0 0 100px #e4315e,
-    0 0 100px #be2148, 0 0 300px #e2345f, 0 0 400px #d42450, 0 0 800px #e7426b;
+    0 0 300px #be2148, 0 0 300px #e2345f, 0 0 100px #d42450, 0 0 200px #e7426b;
   -webkit-animation: blink 3s infinite alternate;
   animation: blink 3s infinite alternate;
   font-family: "neontubes";
+  text-align: left;
+}
+
+.navContainer {
+  display: flex;
+  flex-flow: column;
+  margin-top: 1em;
 }
 
 .neonSubhead {
-  font-size: 5vh;
+  font-size: 3.5vh;
   color: #324e68;
   text-shadow: 0 0 0 transparent, 0 0 5px #301d78,
     0 0 10px rgba(38, 149, 255, 0.5), 0 0 20px #301d78, 0 0 50px #301d78;
-  -webkit-animation: buzz 2s infinite alternate;
-  animation: buzz 2s infinite alternate;
+  -webkit-animation: buzz 5s infinite alternate;
+  animation: buzz 5s infinite alternate;
   font-family: "neontubes";
   text-decoration: none;
   transition: all 0.1s ease-in-out;
+  margin-top: 0.5em;
+  margin-right: 2em;
+  display: flex;
 }
 
 .frontpageContainer .neonSubhead:hover {
-  color: #d4eaff;
-  text-shadow: 0 0 0 transparent, 0 0 5px #3d2692,
-    0 0 10px rgba(133, 190, 243, 0.5), 0 0 50px #6646d8, 0 0 100px #6244cf,
-    0 0 100px #7a66c2, 0 0 500px #6046be, 0 0 1000px #634bbb;
+  color: white;
+  text-shadow: 0 0 0 transparent, 0 0 5px #e5e4e9,
+    0 0 10px rgba(98, 145, 192, 0.5), 0 0 50px #b6a8e9, 0 0 100px #9986df,
+    0 0 100px #9581e0, 0 0 200px #ffffff, 0 0 300px #ebdede;
   -webkit-animation: blink 3s infinite alternate;
   animation: blink 3s infinite alternate;
   cursor: pointer;
@@ -96,39 +109,34 @@ body {
 
 .neonSubhead2 {
   font-size: 5vh;
-  color: #d4eaff;
-  text-shadow: 0 0 0 transparent, 0 0 5px #3d2692,
-    0 0 10px rgba(133, 190, 243, 0.5), 0 0 50px #6646d8, 0 0 100px #6244cf,
-    0 0 100px #7a66c2, 0 0 500px #6046be, 0 0 1000px #634bbb;
+  color: white;
+  text-shadow: 0 0 0 transparent, 0 0 5px #e5e4e9,
+    0 0 10px rgba(197, 211, 224, 0.5), 0 0 50px #6d609b, 0 0 90px #9986df,
+    0 0 200px #a094cc, 0 0 300px #cac4c4, 0 0 500px #ebdede;
   -webkit-animation: buzz 2s infinite alternate;
   animation: buzz 2s infinite alternate;
   font-family: "neontubes";
   text-decoration: none;
   display: flex;
-  justify-content: center;
-  text-align: center;
+  /* justify-content: center; */
+  text-align: left;
 }
 
 .neonRandom {
-  font-size: 2.5vh;
-  color: #d4eaff;
+  font-size: 4vh;
+  color: white;
   text-shadow: 0 0 0 transparent, 0 0 5px #3d2692,
     0 0 5px rgba(133, 190, 243, 0.5), 0 0 6px #6646d8, 0 0 5px #6244cf,
-    0 0 5px #7a66c2, 0 0 5px #6046be, 0 0 5px #634bbb;
+    0 0 5px #7a66c2, 0 0 10px #6046be, 0 0 10px #634bbb;
   -webkit-animation: buzz 2s infinite alternate;
   animation: buzz 2s infinite alternate;
   font-family: "neontubes";
   text-decoration: none;
   width: 100%;
   height: 100%;
+  text-align: left;
 }
 
-.contacts:hover {
-  text-shadow: 0 0 0 transparent, 0 0 5px #3d2692,
-    0 0 10px rgba(133, 190, 243, 0.5), 0 0 50px #6646d8, 0 0 100px #6244cf,
-    0 0 100px #7a66c2, 0 0 500px #6046be, 0 0 1000px #634bbb;
-  animation: blink 3s infinite alternate;
-}
 .randomContainer {
   position: relative;
   margin-bottom: 0;
@@ -138,7 +146,7 @@ body {
 }
 
 .randomContainer .neonRandom {
-  animation: shuffle steps(8) 9s infinite;
+  animation: shuffle steps(8) 7s infinite;
 }
 
 @keyframes shuffle {
@@ -152,14 +160,14 @@ body {
 }
 
 @-webkit-keyframes buzz {
-  70% {
-    opacity: 0.8;
+  90% {
+    opacity: 0.9;
   }
 }
 
 @keyframes buzz {
-  70% {
-    opacity: 0.6;
+  50% {
+    opacity: 0.5;
   }
 }
 @-webkit-keyframes blink {
@@ -212,7 +220,7 @@ body {
 .randomContainer .neonRandom:before,
 .randomContainer .neonRandom:after {
   padding: 30px;
-  color: #d4eaff;
+  color: white;
   text-shadow: 0 0 0 transparent, 0 0 5px #3d2692,
     0 0 5px rgba(133, 190, 243, 0.5), 0 0 6px #6646d8, 0 0 5px #6244cf,
     0 0 5px #7a66c2, 0 0 5px #6046be, 0 0 5px #634bbb;

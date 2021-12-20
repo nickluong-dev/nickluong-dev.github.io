@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@300&display=swap");
 
+.about {
+  display: flex;
+  background-color: #000b16;
+  margin-top: 10em;
+  padding-top: 10em;
+  justify-content: center;
+  align-items: center;
+}
+
 .aboutWrapper {
-  background-color: #010a17;
-  /* padding: 9vh 0 9vh 0; */
+  width: 50vw;
 }
 
 .textWrapper {
@@ -13,11 +21,11 @@
 }
 
 .text {
-  width: 70vw;
-  margin: 15px;
+  width: 50vw;
+  margin: 1em;
   display: flex;
   justify-content: left;
-  color: #d4eaff;
+  color: white;
   font-size: 1rem;
   line-height: 24px;
   font-family: "Roboto", sans-serif;

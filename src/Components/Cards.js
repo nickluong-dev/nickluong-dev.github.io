@@ -6,9 +6,27 @@ import "./styles/MySection.css";
 export default function Cards() {
   return (
     <div id="projects" className="cards">
-      <span className="neonSubhead2">My Projects</span>
-      <div className="cardsContainer">
-        <div className="cardsWrapper">
+      <div>
+        <span className="neonSubhead2">My Projects</span>
+        <div className="cardsContainer">
+          <ul className="cardsRow">
+            <CardItem
+              src="videos/goverlytics_demo.mp4"
+              text={ <><div>A data analytics dashboard using public North American politcal data that I worked on during a co-op term.</div> <br/>
+              <a href="https://goverlytics.com" target={"https://goverlytics.com"} className="cardsItemText"> Live Link </a></>} 
+              title="Goverlytics"
+              path="https://github.com/nickluong-dev/IOTO-webapp"
+              label={["JavaScript", "TypeScript", 'VueJS', "HTML", 'TailwindCSS', 'PostgreSQL']}
+            />
+
+            <CardItem
+              src="videos/SteamStats.mp4"
+              text="Use your SteamID to figure out which games in your library you should finish! Compare your logged hours to what the average completetion time is."
+              title="SteamStats"
+              path="https://github.com/nickluong-dev/SteamStats"
+              label={["Python", "Flask", "Steam API", "CSS"]}
+            />
+          </ul>
           <ul className="cardsRow">
             <CardItem
               src="videos/LyriCount_demo.mp4"
@@ -41,24 +59,6 @@ export default function Cards() {
               path="https://github.com/nickluong-dev/Cyber-Clock"
               label={["Javascript", "CSS", "HTML"]}
               alt="CyberClock Demo"
-            />
-          </ul>
-
-          <ul className="cardsRow">
-            <CardItem
-              src="videos/portfolio_demo.mp4"
-              text="This site! My first time using React components."
-              title="Portfolio"
-              path="https://nickluong-dev.github.io/"
-              label={["React", "CSS", "HTML"]}
-            />
-
-            <CardItem
-              src="videos/SteamStats.mp4"
-              text="Use your SteamID to figure out which games in your library you should finish! Compare your logged hours to what the average completetion time is."
-              title="SteamStats"
-              path="https://github.com/nickluong-dev/SteamStats"
-              label={["Python", "Flask", "Steam API", "CSS"]}
             />
           </ul>
         </div>

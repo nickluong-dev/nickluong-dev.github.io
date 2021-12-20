@@ -15,8 +15,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@300&display=swap");
 
 .cards {
-  padding: 4rem;
-  background: #020a16;
+  display: flex;
+  background-color: #000b16;
+  margin-top: 10em;
+  padding-top: 10em;
+  justify-content: center;
 }
 
 .neonSubhead {
@@ -29,28 +32,20 @@
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
-  width: 90%;
-  margin: 0 auto;
+  width: 50vw;
+  margin: 2em 0 0 0 ;
 }
 
-.cardsWrapper {
-  position: relative;
-  margin: 50px 0 45px;
-  margin-bottom: 150px;
-}
-
-.cardsRow {
-  margin-bottom: 24px;
-}
 
 .cardsItem {
   display: flex;
   flex: 1;
-  margin: 0 1rem;
+  margin: 0 2em 2em 0 ;
   border-radius: 10px;
-  box-shadow: 0 0 0 transparent, 0 0 5px #301886, 0 0 8px #0a244e,
-    0 0 10px #020a16;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border: 5px solid white;
+  box-shadow: 0 0 0 transparent, 0 0 5px #301886, 0 0 9px #0e2d5e,
+    0 0 15px #878e9b, 0 0 20px #202f42;
 }
 
 .cardsItemLink {
@@ -58,13 +53,13 @@
   flex-flow: column;
   width: 100%;
   /* box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17); */
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  border-radius: 10px;
+  -webkit-filter: drop-shadow(0 0px 0px rgba(56, 125, 255, 0.017));
+  /* filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017)); */
+  border-radius: 5px;
   overflow: hidden;
   text-decoration: none;
-  transition: all 0.5s ease-in-out;
-  background: #020a16;
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  background: #000b16;
 }
 
 .cardsItemPicWrap {
@@ -76,7 +71,7 @@
 
 .fade-img {
   animation-name: fade-img;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 
 .cardsItemPicWrap::after {
@@ -90,7 +85,6 @@
   font-weight: 700;
   color: #fff;
   background-color: #d42450;
-
   font-family: "Roboto", sans-serif;
 }
 
@@ -106,7 +100,7 @@
   height: 100%;
   max-height: 100%;
   object-fit: cover;
-  transition: all 0.2s linear;
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .cardsItem:hover .cardsItemImg {
@@ -114,19 +108,19 @@
 }
 
 .cardsItem:hover {
-  box-shadow: 0 0 0 transparent, 0 0 5px #301886, 0 0 9px #0e2d5e,
-    0 0 15px #0e2d5e, 0 0 30px #08244e;
+  box-shadow: 0 0 0 transparent, 0 0 5px #301886, 0 0 9px #78818f,
+    0 0 20px #b8c0ce, 0 0 50px #11223d;
 }
 
 .cardsItem:hover .cardsItemInfo,
 .cardsItem:hover .cardsItemLink {
-  background-color: #c6e4e4;
+  background-color: white;
 }
 
 .cardsItemInfo {
-  padding: 0.7rem 1.3rem 0.7rem;
-  background-color: #020a16;
-  transition: all 0.5s ease-in-out;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  background-color: #000b16;
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
   color: #aaafbe;
   font-size: 0.9rem;
   line-height: 24px;
@@ -134,26 +128,33 @@
 }
 
 .cardsItemText {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);  
+  color: white;
+}
+
+.cardsItemText:visited {
+  color: white;
 }
 
 .cardsItemLabelWrap {
   display: flex;
   justify-content: left;
-  margin-top: 10px;
+  margin-top: 1em;
   transform: translateY(20rem);
-  transition: all 0.7s ease-in-out;
+  transition: all 0.4s ease-in-out;
   flex-wrap: wrap;
 }
 
 .cardsItemLabel {
   color: transparent;
-  border-radius: 15px;
+  border-radius: 5px;
   background-color: transparent;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s linear;
   height: 0px;
   padding: 0rem 0.5rem 0rem 0.5rem;
   margin-right: 0.3rem;
+  text-align: center;
+  vertical-align: middle;
 }
 
 /* Hover animation  */
@@ -163,7 +164,7 @@
 }
 
 .cardsItem:hover .cardsItemLabel {
-  color: #d4eaff;
+  color: white;
   background-color: #020a16;
   margin-bottom: 0.3rem;
   height: 1.7rem;

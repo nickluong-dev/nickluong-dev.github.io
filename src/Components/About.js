@@ -4,28 +4,24 @@ import "./styles/MySection.css";
 
 function About() {
   return (
-    <div className="aboutWrapper" id="about">
-      <span className="neonSubhead2">About Me</span>
-      <div className="textWrapper">
-        <span className="text">
-          Hi, my name is Nick Luong and I am a current Computer Systems
-          Technology student at BCIT. I'm always excited to learn new
-          technologies and use them to build things. I'm open to all facets in
-          the tech industry but right now, I'm particularly into web development
-          and analytics. But you'll still find me studying backend development.
-        </span>
-
-        <span className="text">
-          Right now, I'm in the process of learning React, Flask, and improving
-          my Javascript. I'm also constantly watching videos on algorithms and
-          data structures when I have time. My other interests include
-          music/guitar, gaming, working out, keyboards, and technology.
-        </span>
-
-        <span className="text">
-          Nice to meet you! I love to meet new people, so contact me below if
-          you want to connect.
-        </span>
+    <div className="about" id="about">
+      <div className="aboutWrapper">
+        <span className="neonSubhead2">About Me</span>
+          <div className="textWrapper">
+            <span className="text">
+              Hi, my name is Nick Luong. I am a current Computer Systems
+              Technology student at BCIT and Sauder graduate from UBC. I'm always excited to learn new
+              technologies and use them to build things. I'm open to all facets in
+              the tech industry but right now, I'm particularly into web development
+              and cloud computing. 
+              <br/><br/>
+              Right now, I'm in the process of improving my Java and data structures/algorithms. My other interests include
+              writing music, gaming, working out, technology, and other nerdy things.
+              <br/><br/>
+              Nice to meet you! I love to meet new people, so contact me at the bottom of the page if
+              you'd like to connect.
+            </span>
+          </div>
       </div>
     </div>
   );

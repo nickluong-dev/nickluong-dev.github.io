@@ -16,14 +16,15 @@ export default function MySection() {
             data-text="I'm as@u#█t█ #e.e@!__!"
           ></span>
 
+          <span className="neonRandom"></span>
           <span className="neonRandom">I'm a student developer</span>
-          <span className="neonRandom">I'm a student developer</span>
-          <span className="neonRandom">I'm a student developer</span>
+          <span className="neonRandom">I'm a $tudent developer</span>
           <span
             className="neonRandom"
             data-text="I'm a█stuハent█devめloper"
           ></span>
-          <span className="neonRandom">I'm a student developer</span>
+          <span className="neonRandom">I'm @ student #eveloper</span>
+          <span className="neonRandom"></span>
           <span className="neonRandom">I'm a student developer</span>
           <span
             className="neonRandom"
@@ -32,33 +33,36 @@ export default function MySection() {
           <span className="neonRandom">I'm a student developer</span>
         </span>
 
-        <Link
-          to="projects"
-          spy={true}
-          smooth="easeOutCubic"
-          activeClass="active"
-          className="neonSubhead"
-        >
-          Projects
-        </Link>
-        <Link
-          to="about"
-          spy={true}
-          smooth="easeOutCubic"
-          activeClass="active"
-          className="neonSubhead"
-        >
-          About
-        </Link>
-        <Link
-          to="contact"
-          spy={true}
-          smooth="easeInOutQuad"
-          activeClass="active"
-          className="neonSubhead"
-        >
-          Contact
-        </Link>
+        <div className="navContainer">
+          <Link
+            to="about"
+            spy={true}
+            smooth="easeOutCubic"
+            activeClass="active"
+            className="neonSubhead"
+          >
+            About
+          </Link>
+          <Link
+            to="projects"
+            spy={true}
+            smooth="easeOutCubic"
+            activeClass="active"
+            className="neonSubhead"
+          >
+            Projects
+          </Link>
+          <Link
+            to="contact"
+            spy={true}
+            smooth="easeInOutQuad"
+            activeClass="active"
+            className="neonSubhead"
+          >
+            Contact
+          </Link>
+        </div>
+        
       </div>
     </div>
   );

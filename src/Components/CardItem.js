@@ -4,7 +4,7 @@ function CardItem(props) {
   return (
     <>
       <li className="cardsItem">
-        <a className="cardsItemLink" href={props.path}>
+        <a className="cardsItemLink" target={"cardItemLink"} href={props.path}>
           <figure className="cardsItemPicWrap" data-title={props.title}>
             <video
               src={props.src}

@@ -1,21 +1,44 @@
-.contactWrapper {
-  background-color: #010a17;
-  padding: 0 0 4vh 0;
+.contact {
+  display: flex;
+  background-color: #000b16;
+  margin: 10em 0 3em 0;
+  padding-top: 10em;
+  justify-content: center;
+}
+
+.contactWrapper{
+  width: 50vw;
 }
 
 .contactsContainer {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .contacts {
-  margin-right: 30px;
-  font-family: "Roboto", sans-serif;
+  margin: 0 2em 2em 0; 
+  text-shadow: 0 0 0 transparent, 0 0 2px #e5e4e9,
+  0 0 1px rgba(197, 211, 224, 0.5), 0 0 3px #8d83b3, 0 0 10px #9986df;
+  transition: 0.1s linear;
+}
+
+.contacts:hover{
+  text-shadow: 0 0 0 transparent, 0 0 5px #e5e4e9,
+  0 0 2px rgba(197, 211, 224, 0.5), 0 0 2px #8d83b3, 0 0 15px #9986df;
+  transform: scale(1.2);
+}
+
+.contactText {
+  width: 50vw;
+  justify-content: left;
+  color: white;
   font-size: 1rem;
   line-height: 24px;
-  margin-top: 30px;
-  color: #aaafbe;
-  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.contactTextWrapper{
+  margin: 0.5em 0 2em 0 ;
 }
 
 @media only screen and (max-width: 700px) {
