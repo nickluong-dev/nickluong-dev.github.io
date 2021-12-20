@@ -1,14 +1,14 @@
 import React from "react";
 import "./styles/About.css";
-import "./styles/MySection.css";
+// import "./styles/MySection.css";
 
 function About() {
   return (
-    <div className="about" id="about">
+    <div className="about">
       <div className="aboutWrapper">
-        <span className="neonSubhead2">About Me</span>
-          <div className="textWrapper">
-            <span className="text">
+          <div className="aboutTextWrapper">
+          <span className="neonSubhead2">About Me</span>
+            <span className="aboutText">
               Hi, my name is Nick Luong. I am a current Computer Systems
               Technology student at BCIT and Sauder graduate from UBC. I'm always excited to learn new
               technologies and use them to build things. I'm open to all facets in

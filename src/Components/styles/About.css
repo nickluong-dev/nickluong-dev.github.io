@@ -1,30 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@300&display=swap");
-
 .about {
   display: flex;
   background-color: #000b16;
   margin-top: 10em;
   padding-top: 10em;
   justify-content: center;
-  align-items: center;
 }
 
 .aboutWrapper {
   width: 50vw;
 }
 
-.textWrapper {
+.aboutTextWrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: left;
 }
 
-.text {
-  width: 50vw;
-  margin: 1em;
+.aboutText {
+  margin: 1em 0 0 0;
   display: flex;
-  justify-content: left;
   color: white;
   font-size: 1rem;
   line-height: 24px;

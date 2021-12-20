@@ -12,9 +12,9 @@ function Contact() {
       <div className="contactWrapper">
         <span className="neonSubhead2">Contact</span>
         <div className="contactTextWrapper">
-        <span className="contactText">
-          If you'd like to get into contact with me, you can find me on social media.
-        </span>
+          <span className="contactText">
+            If you'd like to get into contact with me, you can find me on social media.
+          </span>
         </div>
         <div className="contactsContainer">
           <div className="contacts">
