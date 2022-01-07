@@ -21,7 +21,7 @@ export default function Cards() {
 
             <CardItem
               src="videos/SteamStats.mp4"
-              text="Use your SteamID to figure out which games in your library you should finish! Compare your logged hours to what the average completetion time is."
+              text="Use your SteamID to figure out which games in your library you should finish! Compare your logged hours to what the average completion time is."
               title="SteamStats"
               path="https://github.com/nickluong-dev/SteamStats"
               label={["Python", "Flask", "Steam API", "CSS"]}
