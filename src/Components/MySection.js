@@ -17,20 +17,20 @@ export default function MySection() {
           ></span>
 
           <span className="neonRandom"></span>
-          <span className="neonRandom">I'm a student developer</span>
-          <span className="neonRandom">I'm a $tudent developer</span>
+          <span className="neonRandom">I'm a developer</span>
+          <span className="neonRandom">I'm a developer</span>
           <span
             className="neonRandom"
             data-text="I'm a█stuハent█devめloper"
           ></span>
-          <span className="neonRandom">I'm @ student #eveloper</span>
+          <span className="neonRandom">I'm a #eveloper</span>
           <span className="neonRandom"></span>
-          <span className="neonRandom">I'm a student developer</span>
+          <span className="neonRandom">I'm a developer</span>
           <span
             className="neonRandom"
             data-text="I'm a student developer"
           ></span>
-          <span className="neonRandom">I'm a student developer</span>
+          <span className="neonRandom">I'm a developer</span>
         </span>
 
         <div className="navContainer">
