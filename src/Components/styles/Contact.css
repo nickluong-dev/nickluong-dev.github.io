@@ -7,7 +7,7 @@
 }
 
 .contactWrapper{
-  width: 50vw;
+  width: 60vw;
 }
 
 .contactsContainer {
@@ -29,7 +29,7 @@
 }
 
 .contactText {
-  width: 50vw;
+  width: 70vw;
   justify-content: left;
   color: white;
   font-size: 1rem;

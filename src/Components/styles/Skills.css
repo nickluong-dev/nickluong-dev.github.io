@@ -12,7 +12,7 @@
   justify-content: left;
   margin-bottom: 250px;
   margin-top: 100px;
-  width: 50vw;
+  width: 60vw;
   flex-wrap: wrap;
 }
 
@@ -57,5 +57,22 @@
   width: 3em;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 400px) {
+  .skillItem{
+    margin: 0 1em 1em 0;
+    border: 1px solid white;
+    border-radius: 10%;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 24px;
+  }
+  .skillWrapper{
+    width: 2.5em;
+    margin: 1.2em;
+    height: 3em;
+    color: transparent;
+  }
+  .skillsContainer{
+    width: 60vw;
+  }
 }
