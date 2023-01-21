@@ -49,7 +49,7 @@ export default function Cards() {
               src="images/shoe.jpg"
               text="A term project for Microservices and Serverless class. This is a ecommerce shoe store using only AWS serverless architecture."
               title="Serverless Shoe Store"
-              path="https://github.com/nickluong-dev/Yahtzee"
+              path="https://github.com/nickluong-dev/serverless-shoe-store"
               label={[
                 "DynamoDb",
                 "RDS",
