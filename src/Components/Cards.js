@@ -11,24 +11,58 @@ export default function Cards() {
         <div className="cardsContainer">
           <ul className="cardsRow">
             <CardItem
+              video={true}
               src="videos/goverlytics_demo.mp4"
-              text={ <><div>A data analytics dashboard using public North American politcal data that I worked on during a co-op term.</div> <br/>
-              <a href="https://goverlytics.com" target={"https://goverlytics.com"} className="cardsItemText"> Live Link </a></>} 
+              text={
+                <>
+                  <div>
+                    A data analytics dashboard using public North American
+                    politcal data that I worked on during a co-op term.
+                  </div>
+                  <br />
+                  <a
+                    href="https://goverlytics.com"
+                    target={"https://goverlytics.com"}
+                    className="cardsItemText"
+                  >
+                    Live Link
+                  </a>
+                </>
+              }
               title="Goverlytics"
               path="https://github.com/nickluong-dev/IOTO-webapp"
-              label={["JavaScript", "TypeScript", 'VueJS', "HTML", 'TailwindCSS', 'PostgreSQL']}
+              label={["TypeScript", "Vue", "HTML", "TailwindCSS", "PostgreSQL"]}
             />
 
             <CardItem
-              src="videos/SteamStats.mp4"
-              text="Use your SteamID to figure out which games in your library you should finish! Compare your logged hours to what the average completion time is."
-              title="SteamStats"
-              path="https://github.com/nickluong-dev/SteamStats"
-              label={["Python", "Flask", "Steam API", "CSS"]}
+              video={true}
+              src="videos/lims.mp4"
+              text="This was an industry sponsored project partnered with BCIT. An internal tool for lab technicians to input and manage client data."
+              title="Laboratory Information Managment System"
+              path="https://github.com/nickluong-dev/COMP4800"
+              label={["React", "Express", "NodeJs", "Docker", "PostgreSQL"]}
             />
           </ul>
           <ul className="cardsRow">
             <CardItem
+              video={false}
+              src="images/shoe.jpg"
+              text="A term project for Microservices and Serverless class. This is a ecommerce shoe store using only AWS serverless architecture."
+              title="Serverless Shoe Store"
+              path="https://github.com/nickluong-dev/Yahtzee"
+              label={[
+                "DynamoDb",
+                "RDS",
+                "Lambda",
+                "API Gateway",
+                "S3",
+                "SES",
+                "SNS",
+              ]}
+              alt="Shoe Store"
+            />
+            <CardItem
+              video={true}
               src="videos/LyriCount_demo.mp4"
               text="Search for a lyric and see which musicians used it and how many times they've used it in their discography."
               title="LyriCount"
@@ -44,21 +78,12 @@ export default function Cards() {
             />
 
             <CardItem
-              src="videos/yahtzee_demo.mp4"
-              text="Play a full game of Yahtzee with another player in the console!"
-              title="Yahtzee"
-              path="https://github.com/nickluong-dev/Yahtzee"
-              label={["Python"]}
-              alt="Yahtzee Demo"
-            />
-
-            <CardItem
-              src="videos/cyberclock_demo.mp4"
-              text="A simple clock inspired from 30 Day Javascript Challenge. Stylized to look cyberpunk and glow."
-              title="CyberClock"
-              path="https://github.com/nickluong-dev/Cyber-Clock"
-              label={["Javascript", "CSS", "HTML"]}
-              alt="CyberClock Demo"
+              video={true}
+              src="videos/SteamStats.mp4"
+              text="Discover games and see what the average time to complete them are."
+              title="SteamStats"
+              path="https://github.com/nickluong-dev/SteamStats"
+              label={["Python", "Flask", "Steam API", "CSS"]}
             />
           </ul>
         </div>
