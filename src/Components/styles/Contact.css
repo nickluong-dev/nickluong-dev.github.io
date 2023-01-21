@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.contactWrapper{
+.contactWrapper {
   width: 60vw;
 }
 
@@ -16,15 +16,15 @@
 }
 
 .contacts {
-  margin: 0 2em 2em 0; 
+  margin: 0 2em 2em 0;
   text-shadow: 0 0 0 transparent, 0 0 2px #e5e4e9,
-  0 0 1px rgba(197, 211, 224, 0.5), 0 0 3px #8d83b3, 0 0 10px #9986df;
+    0 0 1px rgba(197, 211, 224, 0.5), 0 0 3px #8d83b3, 0 0 10px #9986df;
   transition: 0.1s linear;
 }
 
-.contacts:hover{
+.contacts:hover {
   text-shadow: 0 0 0 transparent, 0 0 5px #e5e4e9,
-  0 0 2px rgba(197, 211, 224, 0.5), 0 0 2px #8d83b3, 0 0 15px #9986df;
+    0 0 2px rgba(197, 211, 224, 0.5), 0 0 2px #8d83b3, 0 0 15px #9986df;
   transform: scale(1.2);
 }
 
@@ -37,8 +37,8 @@
   font-family: "Roboto", sans-serif;
 }
 
-.contactTextWrapper{
-  margin: 0.5em 0 2em 0 ;
+.contactTextWrapper {
+  margin: 0.5em 0 2em 0;
 }
 
 @media only screen and (max-width: 700px) {
